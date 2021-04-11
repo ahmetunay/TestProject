@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: com.tunay.gg.runner.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 17, Skipped: 0, Time elapsed: 1.788 s <<< FAILURE! - in com.tunay.gg.runner.CucumberRunner
+Başarılı login testi(Senaryolar)  Time elapsed: 0.377 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @5a01ccaa
+
+Senaryo(Senaryolar)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+
+Senaryo(Senaryolar)  Time elapsed: 0.005 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Web Sitesi Başlığı kontrol edilir" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.006 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Login Butonuna Tıklanır" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.006 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Sayfanın Yüklenmesi beklenir" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.007 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "eposta alanına "linktestotomasyon@gmail.com" yazılır" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.007 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "şifre alanına "Asdqwe123" yazılır" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.008 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "giriş yap butonuna tıklanır" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.008 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "GGiriş yapmış kullanıcı için ana ekran kontrol edilir" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.01 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Arama kutucuğuna bilgisayar kelimesi girilir" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.01 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Arama  sayfasından 2.sayfa açılır." is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.01 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "2.sayfanın açıldığı kontrol edilir." is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.011 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir." is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.012 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Seçilen ürün sepete eklenir." is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.017 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır." is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.017 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Adet arttırılarak ürün adedinin 2 olduğu doğrulanır" is undefined
+
+Senaryo(Senaryolar)  Time elapsed: 0.018 s  <<< ERROR!
+cucumber.runtime.junit.UndefinedThrowable: The step "Ürün sepetten silinerek sepetin boş olduğu kontrol edilir." is undefined
+

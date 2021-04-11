@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tunay.gg.runner.CucumberRunner" time="1.788" tests="17" errors="17" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tunay\Downloads\trendyolTest-master\TestiniumGG\target\test-classes;C:\Users\tunay\Downloads\trendyolTest-master\TestiniumGG\target\classes;C:\Users\tunay\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\tunay\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\tunay\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\tunay\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\tunay\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\tunay\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\tunay\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\tunay\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\tunay\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\tunay\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\tunay\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\tunay\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-junit\2.4.0\cucumber-junit-2.4.0.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-core\2.4.0\cucumber-core-2.4.0.jar;C:\Users\tunay\.m2\repository\info\cukes\cucumber-html\0.2.6\cucumber-html-0.2.6.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\tunay\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\tunay\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\tunay\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\tunay\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-java\2.4.0\cucumber-java-2.4.0.jar;C:\Users\tunay\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\tunay\.jdks\openjdk-16\bin"/>
+    <property name="sun.java.command" value="C:\Users\tunay\AppData\Local\Temp\surefire6315388736296871526\surefirebooter4011804507090657867.jar C:\Users\tunay\AppData\Local\Temp\surefire6315388736296871526 2021-04-10T18-08-49_653-jvmRun1 surefire1160523194840998764tmp surefire_014874032459711452505tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\tunay\Downloads\trendyolTest-master\TestiniumGG\target\test-classes;C:\Users\tunay\Downloads\trendyolTest-master\TestiniumGG\target\classes;C:\Users\tunay\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\tunay\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\tunay\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\tunay\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\tunay\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\tunay\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\tunay\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\tunay\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\tunay\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\tunay\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\tunay\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\tunay\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\tunay\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-junit\2.4.0\cucumber-junit-2.4.0.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-core\2.4.0\cucumber-core-2.4.0.jar;C:\Users\tunay\.m2\repository\info\cukes\cucumber-html\0.2.6\cucumber-html-0.2.6.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\tunay\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\tunay\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\tunay\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\tunay\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\tunay\.m2\repository\io\cucumber\cucumber-java\2.4.0\cucumber-java-2.4.0.jar;C:\Users\tunay\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tunay"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="C:\Users\tunay\.jdks\openjdk-16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tunay\Downloads\trendyolTest-master\TestiniumGG"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\tunay\AppData\Local\Temp\surefire6315388736296871526\surefirebooter4011804507090657867.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="user.name" value="tunay"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\tunay\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tunay\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="C:\Users\tunay\Downloads\trendyolTest-master\TestiniumGG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\tunay\.jdks\openjdk-16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Users\tunay\AppData\Local\Microsoft\WindowsApps;C:\Users\tunay\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\ProgramData\tunay\GitHubDesktop\bin;C:\Users\tunay\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="Başarılı login testi" classname="Senaryolar" time="0.377">
+    <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @5a01ccaa
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.004">
+    <error message="Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.005">
+    <error message="The step &quot;Web Sitesi Başlığı kontrol edilir&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Web Sitesi Başlığı kontrol edilir" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.006">
+    <error message="The step &quot;Login Butonuna Tıklanır&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Login Butonuna Tıklanır" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.006">
+    <error message="The step &quot;Sayfanın Yüklenmesi beklenir&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Sayfanın Yüklenmesi beklenir" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.007">
+    <error message="The step &quot;eposta alanına &quot;linktestotomasyon@gmail.com&quot; yazılır&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "eposta alanına "linktestotomasyon@gmail.com" yazılır" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.007">
+    <error message="The step &quot;şifre alanına &quot;Asdqwe123&quot; yazılır&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "şifre alanına "Asdqwe123" yazılır" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.008">
+    <error message="The step &quot;giriş yap butonuna tıklanır&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "giriş yap butonuna tıklanır" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.008">
+    <error message="The step &quot;GGiriş yapmış kullanıcı için ana ekran kontrol edilir&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "GGiriş yapmış kullanıcı için ana ekran kontrol edilir" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.01">
+    <error message="The step &quot;Arama kutucuğuna bilgisayar kelimesi girilir&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Arama kutucuğuna bilgisayar kelimesi girilir" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.01">
+    <error message="The step &quot;Arama  sayfasından 2.sayfa açılır.&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Arama  sayfasından 2.sayfa açılır." is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.01">
+    <error message="The step &quot;2.sayfanın açıldığı kontrol edilir.&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "2.sayfanın açıldığı kontrol edilir." is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.011">
+    <error message="The step &quot;Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir." is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.012">
+    <error message="The step &quot;Seçilen ürün sepete eklenir.&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Seçilen ürün sepete eklenir." is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.017">
+    <error message="The step &quot;Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır." is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.017">
+    <error message="The step &quot;Adet arttırılarak ürün adedinin 2 olduğu doğrulanır&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Adet arttırılarak ürün adedinin 2 olduğu doğrulanır" is undefined
+</error>
+  </testcase>
+  <testcase name="Senaryo" classname="Senaryolar" time="0.018">
+    <error message="The step &quot;Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.&quot; is undefined" type="cucumber.runtime.junit.UndefinedThrowable">cucumber.runtime.junit.UndefinedThrowable: The step "Ürün sepetten silinerek sepetin boş olduğu kontrol edilir." is undefined
+</error>
+  </testcase>
+</testsuite>
